@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Calibri';
+    src: url("../fonts/CalibriRegular.ttf") format('ttf');
+}
+
+.s_dark{
+   color: #43425d;
+}
+
+body{
+    font-family: 'Calibri';
+}
+
+.s_container_fluid{
+    height: 900px;
+}
+
+.s_row > div:last-child{ 
+   background: #442460;
+}
+
+.s_row > div:first-child{ 
+    background: #fff;
+ }
+
+
+.logoimg{
+   height: 110px;
+ }
+
+.s_tbdr{
+    border: 1px dashed black;
+}
+
+.s_row input[type="email"]:focus, .s_row input[type="password"]:focus{   /*Attrbute Selecter*/
+    box-shadow: none;
+}
+
+a:hover{
+    color: #ffb900; /*#ffb900 #4a274f*/
+}
+
+.form-check-input:checked{
+    background-color: #4a274f !important;
+    border-color: #4a274f !important;
+}
